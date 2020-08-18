@@ -4,3 +4,10 @@
 # Se a nota for 7 ou mais deve aparecer a mensagem: "Aprovado"
 # 
 # Caso contrário deve aparecer a mensagem: "Reprovado"
+
+nota = int(input("Diga sua nota: "))
+
+if(nota>= 7):
+    print("Aprovado")
+else:
+    print("Reprovado!")
