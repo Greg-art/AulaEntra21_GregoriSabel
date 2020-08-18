@@ -13,3 +13,31 @@
 # 
 # Não precisa calcular o valor do combustivel!
 # 
+print("""
+
+escolha o tipo de combustivel:
+(1)gasolina  -  (2)diesel  -  (3)álcool
+
+""")
+
+chosen = int(input())
+
+print("""
+
+quantos litros gostaria?
+
+""")
+
+amount = int(input())
+
+if chosen is 1: 
+    combus = "gasolina"
+    off = 10 if (amount > 20) else 0
+elif chosen is 2:
+    combus = "diesel"
+    off = 5 if (amount > 10) else 1.5
+else:
+    combus = "álcool"
+    off = 10 if (amount > 10) else 5
+
+print("Você comprara "+ str(amount) + " litros de "+combus+" e ganhará "+str(off)+"% de desconto")

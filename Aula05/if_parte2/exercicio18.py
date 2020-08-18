@@ -9,3 +9,15 @@
 # 
 # Se o delta der positivo, então deve aparecer a seguinte mensagem: "A equação pode ser resolvida!"
 
+a = int(input("Insira o valor de a: "))
+b = int(input("Insira o valor de b: "))
+c = int(input("Insira o valor de c: "))
+
+delta = b*b -(4*a*c)
+
+if (delta > 0):
+    print("A equação pode ser resolvida!")
+elif(delta < 0):
+    print("Delta negativo! Equação não pode ser resolvida!")
+else:
+    print("Delta igual a zero!")

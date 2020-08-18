@@ -12,10 +12,24 @@
 # Se delta for maior que zero, então use estas 2 fórmulas "x =(-b+(delta**(1/2)))/(2*a)" e "x2=(-b-(delta**(1/2)))/(2*a)"
 # e mostre o os valores de x1 e x2  
 #     
-#     
 # ________________
 # Nota: 
 # Para testar se seu programa está certo use estes valores para a, b e c
 # delta negativo a=1, b=1, c=1
 # delta zero a=1, b=2, c=1
 # delta positivo a=1, b=4, c=1
+a = int(input("Insira o valor de a: "))
+b = int(input("Insira o valor de b: "))
+c = int(input("Insira o valor de c: "))
+
+delta = b*b -(4*a*c)
+
+if (delta < 0):
+    print("Delta negativo! Equação não pode ser resolvida!")
+elif(delta > 0):
+    x1 = (-b+(delta**(1/2)))/(2*a)
+    x2 = (-b-(delta**(1/2)))/(2*a)
+    print("x1 = "+str(x1)+"   x2 = "+str(x2))
+else:
+    x=-b/(2*a)
+    print("x1 = "+str(x1))
