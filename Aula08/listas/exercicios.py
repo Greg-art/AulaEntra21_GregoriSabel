@@ -44,11 +44,8 @@ print(lista[0:: 2])
 print(str(lista[2])+" - "+str(lista[0])+" - "+str(lista[0])+" - "+str(lista[3])+" - "+str(lista[6])+" - "+str(lista[5])+" - "+str(lista[0])+" - "+str(lista[1]))
 
 
-lista = [10, 20, 'amor', 'abacaxi', 80, 'Abioluz', 'Cachorro grande é de arrasar']
-
 
 # 6) Usando a indexação, escreva na tela uma lista com dados de 10 até 80
-
 
 print(lista[0:5])
 
