@@ -38,11 +38,13 @@ print(lista[0:: 2])
 
 
 
+
+
+
 # 5) Usando a indexação escreva na tela os seguintes dados:
 # amor - 10 - 10 - abacaxi - Cachorro grande é de arrasar - Abioluz - 10 - 20
 
-print(str(lista[2])+" - "+str(lista[0])+" - "+str(lista[0])+" - "+str(lista[3])+" - "+str(lista[6])+" - "+str(lista[5])+" - "+str(lista[0])+" - "+str(lista[1]))
-
+print(f"{lista[2]} - {lista[0]} - {lista[0]} - {lista[3]} - {lista[6]} - {lista[5]} - {lista[0]} - {lista[1]}")
 
 
 # 6) Usando a indexação, escreva na tela uma lista com dados de 10 até 80
